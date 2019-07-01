@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        //pregunta 1: Declarar un array vacio de nombre amigos
+
+        var amigos=[];
+     //pregunta 2: Insertar los tres objetos (Hugo, Paco y Luis) en el array amigos.
+     amigos.push=("hugo");
+     amigos.push=("paco");
+     amigos.push=("luis");
+        var hugo.nombre=new objeto();
+        hugo.nombre="hugo " ;
+        hugo.edad=19;
+        hugo.ciudad="quito";
+    
+        var paco =new objeto();
+        paco.nombre="paco";
+        paco.edad=13;
+        paco.cuidad="cuenca";
+    
+        var luis=new objeto();
+        luis.nombre="luis"
+        luis.edad=14;
+        luis.cuidad="manabi"
+    
+        //pregunta 3 :Imprimir en consola la longitud del array amigos.
+    
+        console.log(amigos);
+    
+        //pregunta 4: Crear un nuevo objeto de nombre Elena (con los mismos tres 
+        //atributos de los objetos iniciales: nombre, edad, ciudad)
+    
+          elena=new objeto ();
+         var elana=new objeto();
+         elena.nombre="elena";
+         elena.edad=17
+         elena.cuidad="guayaquil";
+         //pregunta 5 :Declarar una variable numeroDeAmigos y guardar el número de elementos que
+         // tiene el array (usando la propiedad que devuelve el número de elementos de un array).
+    
+         var numeroAmigo=[];
+         amigos.push=("hugo");
+         amigos.push=("paco");
+         amigos.push=("luis");
+         amigos.push=("elena");
+    
+          console.log(numeroAmigo.lenght);
+         //pregunta 6 :Hacer una función que se llame saludo, la función recibe como parámetro un objeto, 
+         // si la edad es par: imprime en consola “Saluton kaj bonvenon”. 
+         // Cuando la edad es impar imprime en consola “Hello moto”.
+         var saludo =function(objeto ){
+             if(edad%2===0){
+                 console.log("saluton kaj bonvenon");
+             }else{
+                 console.log("“Hello moto");
+             }
+         }
+         //pregunta 7: Hacer una función de nombre arriba  que recibe un objeto por parámetro e 
+         //imprime en consola desde el uno, de manera ascendente hasta el atributo edad
+         var repetidor = function(contador) {
+    
+            if (contador > numeroMaximo) {
+                console.log("fin");
+                return 0;
+            } else {
+                //logica
+                console.log("contador = " + contador);
+                return repetidor(contador + 1);
+            }
+        }
+         //pregunta 8 :Hacer una función de nombre abajo  que recibe un objeto por parámetro 
+         //e imprime en consola desde la edad del objeto hasta cero, de manera descendente. 
+         var abajo =function(marc){
+            if(marc===1){
+             return 1;
+             }else{
+              console.log(marc);
+              return abajo (marc -1);
+              }
+             }
+         //ptegunta 9 :Hacer una función de nombre edadTotal que recibe cuatro objetos como parámetros
+         // y escribe en pantalla la suma de las edades de los cuatro objetos recibidos.
+         var edadTotal=function(objetos){
+             if(objeto===edad)
+             suma(objeto + objeto + objeto + objeto)
+         }else{
+             alert("sumade las 4 edades"+ suma);
+         }
+    
+</body>
+</html>
